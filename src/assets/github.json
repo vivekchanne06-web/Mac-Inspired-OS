@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200",
+    "title": "Figma Style Design Tool",
+    "description": "A browser-based Figma-like design tool built using HTML, CSS, and JavaScript with drag, resize, rotate, and layer management features.",
+    "tags": [
+      "HTML5",
+      "CSS3",
+      "SCSS",
+      "JavaScript",
+      "DOM Manipulation",
+      "UI/UX",
+      "Canvas",
+      "Web APIs"
+    ],
+    "repolink": "https://github.com/yourusername/figma-design-tool",
+    "demolink": "https://yourusername.github.io/figma-design-tool"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200",
+    "title": "React Portfolio Website",
+    "description": "A modern personal portfolio website built with React showcasing projects, skills, and contact information with smooth animations.",
+    "tags": [
+      "React",
+      "JavaScript",
+      "JSX",
+      "CSS Modules",
+      "Framer Motion",
+      "Responsive Design",
+      "Vite",
+      "Git"
+    ],
+    "repolink": "https://github.com/yourusername/react-portfolio",
+    "demolink": "https://react-portfolio-demo.vercel.app"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200",
+    "title": "Task Management Dashboard",
+    "description": "A productivity-focused task management dashboard with localStorage support, dark mode, and responsive design.",
+    "tags": [
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "LocalStorage",
+      "State Management",
+      "CRUD",
+      "Dark Mode",
+      "Flexbox"
+    ],
+    "repolink": "https://github.com/yourusername/task-dashboard",
+    "demolink": "https://yourusername.github.io/task-dashboard"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=1200",
+    "title": "Fitness Tracking App",
+    "description": "A fitness tracking web app to log workouts, calories, and progress charts, designed for daily gym users.",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Chart.js",
+      "REST API",
+      "Component Design",
+      "Health Tech",
+      "Responsive UI",
+      "Hooks"
+    ],
+    "repolink": "https://github.com/yourusername/fitness-tracker",
+    "demolink": "https://fitness-tracker-demo.vercel.app"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200",
+    "title": "Instagram Reels UI Clone",
+    "description": "A front-end clone of Instagram Reels with vertical scrolling, like animations, and dynamic data rendering.",
+    "tags": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Intersection Observer",
+      "UI Clone",
+      "Animations",
+      "Mobile First",
+      "ES6"
+    ],
+    "repolink": "https://github.com/yourusername/instagram-reels-clone",
+    "demolink": "https://yourusername.github.io/instagram-reels-clone"
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
+    "title": "Developer Notes App",
+    "description": "A lightweight notes app for developers with markdown support, search, and persistent storage.",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Markdown",
+      "LocalStorage",
+      "Search",
+      "CRUD",
+      "Productivity",
+      "Hooks"
+    ],
+    "repolink": "https://github.com/yourusername/dev-notes-app",
+    "demolink": "https://dev-notes-demo.vercel.app"
+  }
+]

@@ -1,0 +1,236 @@
+/**
+ * @file: vivek.profile.ts
+ * @author: Vivek Mahendra Channe
+ * @summary: Electronics & Telecommunication Engineer | Embedded, AI & Security Enthusiast
+ */
+
+// --------------------------------------------------
+// 1. BASIC PROFILE
+// --------------------------------------------------
+
+const PROFILE = {
+  name: "Vivek Mahendra Channe",
+  role: "B.E. Electronics & Telecommunication Engineering",
+  location: "Pune, Maharashtra, India",
+  contact: {
+    phone: "+91-8767737473",
+    emails: [
+      "vivekchanne.skn.entc@gmail.com",
+      "vivekchanne06@gmail.com",
+    ],
+    linkedin: "linkedin.com/in/vivek-channe-948898357",
+  },
+  languages: ["Marathi", "Hindi", "English"],
+};
+
+// --------------------------------------------------
+// 2. TECHNICAL SKILLS
+// --------------------------------------------------
+
+const SKILLS = {
+  programming: [
+    "Python",
+    "Embedded C",
+    "Arduino Programming",
+  ],
+  embedded_and_iot: [
+    "Arduino UNO",
+    "ESP32-CAM",
+    "GPS & GSM Interfacing",
+    "RFID Systems",
+    "PLC Programming",
+    "HMI Interfaces",
+  ],
+  cybersecurity: [
+    "Network Security",
+    "Malware Analysis",
+    "Vulnerability Assessment",
+    "Security Audits",
+  ],
+  ai_ml: [
+    "Machine Learning Fundamentals",
+    "TinyML",
+    "Edge Impulse",
+    "Image Processing",
+  ],
+  tools: [
+    "Firewalls",
+    "Antivirus Tools",
+    "Sensor Integration",
+    "CNC Machines",
+  ],
+};
+
+// --------------------------------------------------
+// 3. EDUCATION
+// --------------------------------------------------
+
+const EDUCATION = [
+  {
+    institute: "Shrimati Kashibai Navale College Of Engineering",
+    degree: "B.E. Electronics & Telecommunication Engineering",
+    duration: "2022 - 2026",
+    cgpa: "8.45 / 10",
+  },
+  {
+    institute: "Government Polytechnic Karad",
+    degree: "Diploma - Electronics & Telecommunication Engineering",
+    year: "2023",
+    score: "81.88%",
+  },
+  {
+    institute: "Mahatma Gandhi Vidyalaya, Kadegaon",
+    degree: "10th - MSBSHSE",
+    year: "2020",
+    score: "90%",
+  },
+];
+
+// --------------------------------------------------
+// 4. INTERNSHIP EXPERIENCE
+// --------------------------------------------------
+
+class InternshipExperience {
+  /**
+   * @period Jan 2025 - Feb 2025
+   */
+  Techverse_Upskill(): void {
+    const role = "Cyber Security Intern";
+    const focus = [
+      "Network Monitoring",
+      "Vulnerability Identification",
+      "Incident Response Support",
+    ];
+
+    const toolsUsed = [
+      "Firewalls",
+      "Antivirus Software",
+      "Security Auditing Tools",
+    ];
+
+    const impact =
+      "Improved system security posture and assisted in compliance with cybersecurity standards.";
+
+    return { role, focus, toolsUsed, impact };
+  }
+
+  /**
+   * @period Jul 2022 - Aug 2022
+   */
+  Prism_Automation_Robotics(): void {
+    const role = "Automation & Robotics Intern";
+    const handsOn = [
+      "PLC Programming",
+      "HMI Design",
+      "CNC Wiring",
+      "Robotic Spot Welding",
+      "Leak Test SPM Machine",
+    ];
+
+    return { role, handsOn };
+  }
+}
+
+// --------------------------------------------------
+// 5. PROJECTS
+// --------------------------------------------------
+
+interface Project {
+  title: string;
+  skills: string[];
+  description: string;
+}
+
+const PROJECTS: Project[] = [
+  {
+    title: "Secure Data Hiding Using Image Steganography",
+    skills: [
+      "Python",
+      "Image Processing",
+      "LSB Technique",
+      "Data Security",
+    ],
+    description:
+      "Developed a password-protected steganography system to hide and retrieve text inside images without visual distortion.",
+  },
+  {
+    title: "Arduino Based Vehicle Tracking System",
+    skills: [
+      "Arduino UNO",
+      "GPS",
+      "GSM",
+      "Embedded C",
+    ],
+    description:
+      "Built a real-time vehicle tracker that sends live location via SMS using GPS parsing and GSM AT commands.",
+  },
+  {
+    title: "RFID Based Secure Access Control System",
+    skills: [
+      "RFID Interfacing",
+      "Authentication",
+      "Circuit Design",
+    ],
+    description:
+      "Designed a secure RFID access system with LCD feedback, solenoid lock, and anti-cloning protection.",
+  },
+  {
+    title: "ESP32-CAM Face Recognition System",
+    skills: [
+      "TinyML",
+      "Edge Impulse",
+      "ESP32-CAM",
+      "PCB Design",
+    ],
+    description:
+      "Developed a low-cost, offline face recognition system running entirely on-device for privacy-focused IoT security.",
+  },
+];
+
+// --------------------------------------------------
+// 6. CERTIFICATIONS
+// --------------------------------------------------
+
+const CERTIFICATIONS = [
+  "Introduction to Modern AI",
+  "Machine Learning for Data Science Projects (IBM)",
+  "Program in Cyber Awareness AI Basic",
+];
+
+// --------------------------------------------------
+// 7. ACTIVITIES & INTERESTS
+// --------------------------------------------------
+
+const ACTIVITIES = {
+  roles: [
+    "Magazine Head",
+    "Member of IETE Students Forum (ISF)",
+  ],
+  interests: [
+    "Exercising",
+    "Travelling",
+    "Technology Exploration",
+  ],
+};
+
+// --------------------------------------------------
+// 8. STATUS
+// --------------------------------------------------
+
+export const STATUS = {
+  availability: "Open to Internships & Entry-Level Opportunities",
+  focusAreas: [
+    "Embedded Systems",
+    "Cyber Security",
+    "AI & IoT",
+  ],
+};
+
+export default {
+  PROFILE,
+  SKILLS,
+  EDUCATION,
+  PROJECTS,
+  CERTIFICATIONS,
+  ACTIVITIES,
+};
