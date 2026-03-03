@@ -11,7 +11,7 @@ const Note = ({ windowName, setwindowsState }) => {
 
 
     useEffect(() => {
-        fetch("/public/Note.txt")
+        fetch("/Note.txt")
             .then(response => response.text())
             .then(data => setMarkdown(data))
     })

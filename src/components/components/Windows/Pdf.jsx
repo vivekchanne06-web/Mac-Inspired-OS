@@ -5,7 +5,7 @@ const Pdf = ({ windowName, setwindowsState }) => {
     return (
         <MacWindow windowName={windowName} setwindowsState={setwindowsState}>
             <div className="pdf-window">
-                <embed src="/public/Resume.pdf" frameborder="0"></embed>
+                <embed src="/Resume.pdf" frameborder="0"></embed>
             </div>
         </MacWindow>
     )
