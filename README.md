@@ -23,7 +23,7 @@ This project replicates the look and feel of Apple’s macOS UI, bringing a desk
 ## 🛠️ Tech Stack
 
 - Frontend: React.js  
-- Styling: CSS / Tailwind  
+- Styling: CSS / Scss  
 - Deployment: Vercel  
 - Version Control: Git & GitHub  
 
